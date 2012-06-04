@@ -1,0 +1,7 @@
+a.out
+*/a.out
+*.swp
+*/*.swp
+*.o
+*/*.o
+
