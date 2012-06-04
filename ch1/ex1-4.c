@@ -10,12 +10,12 @@ main()
 	upper = 300;
 	step = 20;
 
-	printf("Fahr  Celsius\n");
+	printf("Celsius  Fahr\n");
 
 	celsius = lower;
 	while (celsius <= upper ) {
 		fahr = ((9.0/5.0) * celsius) + 32.0;
-		printf("%3.0f %6.1f\n", fahr, celsius);
+		printf("%6.1f %6.0f\n", celsius, fahr);
 		celsius = celsius + step;
 	}
 }
