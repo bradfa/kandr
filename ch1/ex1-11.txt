@@ -1,0 +1,9 @@
+How to test the word count program?
+What kinds of input are most likely to uncover bugs if there are any?
+
+Provide intput that stresses things, such as spaces, tabs, or newlines
+followed by other spaces, tabs, or newlines.
+Provide input that includes special characters that aren't spaces, tabs, or
+newlines, such as backspace, line feed, or nulls.
+Provide input that isn't ASCII, such as UTF-8.
+
